@@ -1,0 +1,1032 @@
+
+      @keyframes bubbleText 
+      {
+          0%{
+              color:green;
+          }
+          50% {
+              color:yellow;
+          }
+          80%{
+              color: orange;
+          }
+      }
+    .task-bar 
+    {
+        position:fixed;
+        bottom:0px;
+        left:0px;
+        z-index: 700;
+        width: 100%;
+        text-align:center;
+        background-image:url('../../assets/bg/Ultra Violet Galactic Background Free Vector.jpg');
+        padding-right: 5%;
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size:cover;
+    }
+    .task-bar .row 
+    {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        /* background-color:blueviolet; 3d3d3d */
+
+    }
+    .task 
+    {
+        margin: 2px;
+        padding: 5px; 
+    }
+    .task  p 
+    {
+        font-weight: 200;
+        font-size: smaller;
+        font-family: 'Calibri';
+        text-transform:capitalize;
+        color: white;
+    }
+    .task a 
+    {
+        color: aliceblue;
+        font-weight: 800;
+    }
+    .task  i 
+    {
+        color: aliceblue;
+    }
+    .wrp
+    {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 710px;
+        position: absolute;
+        top:0;
+        left: 0;
+        z-index: 2500;
+    }
+    .loader-wrapper 
+    {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index:100;
+        height: 1000px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+    }
+    .loader-fader 
+    {
+    
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        opacity: .945;
+    }
+    .loader-wrapper 
+    {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .loader-notifier
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content:center;
+    }
+    .loader-notifier .notiers 
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .loader-notifier h6 ,
+    .progress-counter,.notice
+    {
+        font-size: medium;
+        font-family: 'Calibri';
+        color:grey;
+        width: 50%;
+        text-align: center;
+    }
+    .i-cover 
+    {
+        padding: 2%;
+        width: 100%;
+        margin-top: 30%;
+        text-align: center;
+    }
+    .i-cover img
+    {
+        width: 105px;
+        height: 100px;
+        border-radius: 125px;
+    } 
+    .w-name,.omae-brand 
+    {
+        margin-top: 20px;
+        font-family:'Comic Sans MS','Calibri';
+        color: white;
+        text-align: center;
+    }
+    .w-name,.omae-brand 
+    {
+        margin-top: 20px;
+        font-family:'Calibri';
+    
+        color: rgb(78, 76, 76);
+        text-align: center;
+    }
+    .progress-div
+    {
+        background-color:black;
+        width: 100%;
+        border-radius: 5px;
+        padding: 1px;
+    }
+    
+    .progress-bar 
+    {
+        background-color:white;
+        border-radius: 5px;
+        height: 2px;
+        width: 200px;  
+    }
+    main > .aside-sect
+    {
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: start;
+    }
+    main > footer > .container 
+    > .row > .foot-group
+    {
+        margin-bottom: 0%;
+    }
+    main > .aside-sect > aside
+    {
+        width: 30%;
+
+    }
+    main >.aside-sect > aside 
+    {
+        background-image:url('../../assets/bg/Ultra Violet Galactic Background Free Vector.jpg');
+        padding-right: 5%;
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size:cover;
+        /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    }
+    main > .aside-sect > section
+    {
+        width: 70%;
+    }
+    main >.aside-sect > aside 
+    {
+        background-color: rgb(16, 37, 63);
+        color: white;
+        padding: 0% 5% 0% 5%;
+    }
+    .work-exp >span,
+    .live-pros > span,
+    .hobbies > span
+    {
+        background-color:rgb(86, 212, 86);
+        color: white;
+        padding: 7px;
+    }
+    .dev-prof-sum > span
+    {
+        color: rgb(255, 255, 255);
+    } 
+    .dev-skills > .splitter-2,
+    .dev-prof-sum > .splitter-2,
+    .work-exp > .splitter-2,
+    .live-pros > .splitter-2,
+    .hobbies > .splitter-2
+    {
+        margin: 0% 1% 3% 0%;
+        border-top:2px solid rgb(86, 212, 86);
+        font-weight: 600;
+    }
+    .dev-skills > .splitter-2,
+    .dev-prof-sum > .splitter-2 
+    {
+        margin: 1% 0% 3% 0%;
+        border-top:2px solid rgb(86, 212, 86);
+        font-weight: 600;
+    }
+    .dev-prof-sum > .sum-exp,
+    .dev-prof-sum > .sum-ext
+    {
+        line-height: 16px;
+        color: rgb(235, 235, 235);
+        font-family: 'Times New Roman';
+        font-size: larger;
+        font-style: italic;
+    }
+    aside > .splitter
+    {
+        margin: 15% 0% 3% 0%;
+        border-top:2px solid white;
+        font-weight: 600;
+    }
+    aside >.dev-creds
+    {
+        padding-top: 100px;
+        line-height: 12px;
+    }
+    .dev-portfolio > .portfolio
+    {
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: start;
+    }
+    .dev-portfolio > .portfolio > .icon-wrap
+    {
+        background-color: color;
+        padding: 2px;
+    }
+    .dev-portfolio > .portfolio > a
+    {
+        margin-left: 10px;
+        color: white;
+    }
+    .dev-icon 
+    {
+        margin-top: 10%;
+        text-align: center;
+    }
+    .dev-icon img
+    {
+        width: 150px;
+        height: 150px;
+        border-radius: 125px;
+        margin-bottom: 20px;
+    }
+    .dev-contacts   
+    {
+        margin-top: 5%;
+    }
+    .dev-contacts > .contact  
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: start;
+    }
+    .dev-contacts > .contact >.detail
+    {
+        margin-left: 10px;
+    }
+    .dev-edu >.dev-school-1 > .dev-sch-name,
+    .dev-edu >.dev-school-2 > .dev-sch-name,
+    .dev-edu >.dev-school-3 > .dev-sch-name
+    {
+        text-transform: uppercase;
+    }
+    .dev-edu >.dev-school-1 > .dev-sch-program,
+    .dev-edu >.dev-school-2 > .dev-sch-program,
+    .dev-edu >.dev-school-3 > .dev-sch-program
+    {
+        color: rgb(206, 206, 206);
+    }
+    .dev-edu >.dev-school-1 > ul > li,
+    .dev-edu >.dev-school-2 > ul > li,
+    .dev-edu >.dev-school-3 > ul > li
+    {
+        color: rgb(206, 206, 206);;
+    }
+    .dev-edu >.dev-school-1,
+    .dev-edu >.dev-school-2,
+    .dev-edu >.dev-school-3
+    {
+        margin-top: 10%;
+    }
+    .port-nav > ul
+    {
+        list-style: none;
+        padding:0;
+        margin: 0;
+    }
+    .port-nav > ul > li 
+    {
+        display: inline-block;
+        margin-right: 10px;
+        color: white;
+    }
+    .port-nav > ul > li:hover 
+    {
+        border-bottom: 2px solid rgb(89, 187, 89);
+
+    }
+    .port-nav > ul > li > a
+    {
+        color:rgb(51, 49, 49);
+        font-size: small;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .dev-prof-sum 
+    {
+        padding: 5%;
+        background-image: linear-gradient(to right, rgb(72, 49, 156), rgb(38, 19, 109));
+    }
+    .dev-prof-sum > span 
+    {
+        border-top-right-radius: 20px;
+    }
+    .dev-prof-sum > .sum-exp,
+    .dev-prof-sum > .sum-ext
+    {
+        line-height: 16px;
+    }
+    .sect-wrap
+    {
+        padding:0% 0% 0% 0%;
+    }
+    .img-wrap 
+    {
+        background-image:url('../../assets/bg/Ultra Violet Galactic Background Free Vector.jpg');
+        padding-right: 5%;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size:cover;
+    }
+    .img-wrap .dev-anime-int 
+    {
+        color: white;
+        padding: 65% 0% 10% 10%;
+        line-height: 0.1px;
+        text-align: left;
+    }
+    .dev-skills > span
+    {
+        background-color:rgb(86, 212, 86);
+        color: white;
+        padding: 7px;
+    }
+    .dev-skills > .splitter-2
+    {
+        margin: 0% 1% 3% 0%;
+        border-top:3px solid rgb(86, 212, 86);
+        font-weight: 600;
+    }
+    .dev-skills 
+    {
+        background-image:url('../../assets/bg/Ultra Violet Galactic Background Free Vector.jpg');
+        padding-right: 5%;
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size:cover;
+        padding: 10%;
+    }
+    .dev-skills .sk-name,
+    .dev-skills h4
+    {
+        color: white;
+    }
+    .dev-skills > .sk-2 ,
+    .dev-skills > .sk-3
+    {
+        margin-top: 5%;
+    }
+    .dev-skills > span 
+    {
+        border-top-right-radius: 20px;
+    }
+
+    .dev-skills > .row > .front-end > .skill > .sk-exp,
+    .dev-skills > .row > .back-end > .skill > .sk-exp
+    {
+        width: 100%;
+    }
+    .live-pros 
+    {
+        background-image:url('../../assets/bg/Ultra Violet Galactic Background Free Vector 2.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size:cover;
+    }
+    .live-pros  
+    {
+        padding: 20% 5% 30% 10%;
+    }
+    .project > .pro-wrap 
+    {
+        border-radius: 5px;
+        border: 0.1px solid rgb(196, 248, 209);
+
+        /* background: rgb(59, 52, 43); */
+        text-align: center;
+        padding: 10%;
+        background-image:url('../../assets/bg/Ultra Violet Galactic Background Free Vector 2.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size:cover;
+    }
+    .project > .pro-wrap > h4
+    {
+        margin-bottom:0;
+        font-size: x-large;
+        text-transform: capitalize;
+        font-weight: bolder;
+        margin-top: 10%;
+    }
+    .project > .pro-wrap > h4 > a
+    {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    .project > .pro-wrap > i
+    {
+        color: white;
+    }
+    .project > .pro-wrap > h4 > a 
+    {
+        transform: rotate(30deg);
+    }
+    .project > .pro-wrap > h4 > a 
+    {
+        transition: all 30s;
+    }
+    .project > .pro-wrap > h4 > a
+    {
+        text-transform: uppercase;
+        font-size: small;
+        font-family: Tahoma;
+        color: rgb(255, 255, 255);
+        /* animation-name: bubbleText;
+        animation-duration: 5s;
+        animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        animation-iteration-count: infinite; */
+    }
+    .project > .pro-wrap > h6 
+    {
+        font-style: italic;
+        font-size: small;
+    }
+    .live-pros-row-2
+    {
+        padding-top: 4%;
+    }
+    .work-exp 
+    {
+        padding:10%;
+        background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    }
+    .work-exp >.work >.splitter-2
+    {
+        border-top:3px solid rgb(86, 212, 86);
+    }
+    .work > .w-intro > .w-date,
+    .work > .w-intro > strong > h6 
+    {
+        color: rgb(85, 111, 126);
+    }
+    .work-exp > .work > .w-res 
+    {
+        list-style: inside;
+        color: white;
+    }
+    .work-exp .work .w-name
+    {
+        color: rgb(230, 230, 230);
+    }
+    .work-exp .work .w-pos
+    {
+        color: rgb(248, 255, 249);;
+    }
+    .work-exp .work .w-date
+    {
+        color: rgb(85, 111, 126);
+    }
+    .work-exp > .work > .w-res > ul > li
+    {
+        margin-left: 20%;
+        line-height: 15px;
+        margin-top: 10px;
+    }
+    .work-exp > .w-further 
+    {
+        font-style: italic;
+        text-align: center;
+        color: green;
+    }
+    .hobbies 
+    {
+        padding: 20% 10% 10% 5%;
+        background-image:url('../../assets/bg/Ultra Violet Galactic Background Free Vector 2.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size:cover;
+    }
+    .hobbies ul 
+    {
+        list-style: none;
+    }
+    .hobbies ul  li 
+    {
+        line-height: 16px;
+        margin-bottom: 10%;
+    }
+    .hobbies ul  li a 
+    {
+        color: white;
+        font-size: small;
+        font-weight: 700;
+        font-style: oblique;
+    }
+
+    main > footer 
+    {
+        color: white;
+        background-image:url('../../assets/bg/Ultra Violet Galactic Background Free Vector 2.jpg');
+        padding-right: 5%;
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size:cover;
+    }
+    main > footer 
+    {
+        padding: 5% 0% 1% 0%;
+    }
+    main > footer > .container 
+    > .row > .foot-group > h5
+    {
+        text-transform: uppercase;
+    }
+    main > footer > .container 
+    > .row > .foot-group > ol
+    {
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+    main > footer > .container 
+    > .row > .foot-group > ol >li
+    {
+        margin-top: 2%;
+        color:rgb(236, 236, 236);
+        font-size: smaller;
+    }
+    main > footer > .container 
+    > .row > .foot-group > ol >li > a
+    {
+
+        color:rgb(236, 236, 236);
+    }
+    main > footer > .container 
+    > .row > .foot-group > ol >li 
+    > strong >a
+    {
+
+        color:rgb(236, 236, 236);
+    }
+    main > footer > .container > .copy-right > h6
+    {
+        margin-top: 10%;
+    }
+    .Immediate-start 
+    {
+        animation-name:bubbleText;
+        animation-duration:5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    }
+@media screen and (max-width:780px){
+    .wrp
+    {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 710px;
+        position: absolute;
+        top:0;
+        left: 0;
+        z-index: 2500;
+    }
+    .loader-wrapper 
+    {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index:100;
+        height: 1000px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+    }
+    .loader-fader 
+    {
+    
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        opacity: .945;
+    }
+    .loader-wrapper 
+    {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .loader-notifier
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content:center;
+    }
+    .loader-notifier .notiers 
+    {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .loader-notifier h6 ,
+    .progress-counter,.notice
+    {
+        font-size: medium;
+        font-family: 'Calibri';
+        color:grey;
+        width: 80%;
+        text-align: center;
+    }
+    .i-cover 
+    {
+        padding: 2%;
+        width: 100%;
+        margin-top: 95%;
+        text-align: center;
+    }
+    .i-cover img
+    {
+        width: 105px;
+        height: 100px;
+        border-radius: 125px;
+    } 
+    .w-name,.omae-brand 
+    {
+        margin-top: 20px;
+        font-family:'Comic Sans MS','Calibri';
+        color: white;
+        text-align: center;
+    }
+    .w-name,.omae-brand 
+    {
+        margin-top: 20px;
+        font-family:'Calibri';
+    
+        color: rgb(78, 76, 76);
+        text-align: center;
+    }
+    .progress-div
+    {
+        background-color:black;
+        width: 100%;
+        border-radius: 5px;
+        padding: 1px;
+    }
+    
+    .progress-bar 
+    {
+        background-color:white;
+        border-radius: 5px;
+        height: 2px;
+        width: 200px;  
+    }
+    main > .aside-sect
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main > .aside-sect > aside
+    {
+        width: 100%;
+    }
+    main > .aside-sect > section
+    {
+        width: 100%;
+    }
+    .img-wrap 
+    {
+        background-image:url('../../assets/bg/Ultra Violet Galactic Background Free Vector.jpg');
+        padding-right: 5%;
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size:cover;
+    }
+    .img-wrap .dev-anime-int 
+    {
+        color: white;
+        padding: 70% 5% 20% 0%;
+        line-height: 0.1px;
+        text-align: center;
+        font-size: smaller;
+    }
+    main >.aside-sect > aside 
+    {
+        background-color: rgb(16, 37, 63);
+        color: white;
+        padding: 0% 3% 0% 3%;
+    }
+    .dev-portfolio > h4,
+    .dev-edu > h4,
+    .dev-lang > h4
+    {
+        font-size: 15px;
+    }
+    .dev-skills > span,
+    .work-exp >span,
+    .live-pros > span
+    {
+        background-color: rgb(86, 212, 86);
+        color: white;
+        padding: 5px;
+    }
+    .dev-skills > .splitter-2,
+    .dev-prof-sum > .splitter-2,
+    .work-exp > .splitter-2,
+    .live-pros > .splitter-2
+    {
+        margin: 1% 0% 2% 0%;
+        border-top: 2px solid rgb(86, 212, 86);
+        font-weight: 600;
+    }
+    .dev-prof-sum > .sum-exp,
+    .dev-prof-sum > .sum-ext
+    {
+        line-height: 16px;
+        color: black;
+        font-family: 'Times New Roman';
+        font-size: larger;
+    }
+    aside > .splitter
+    {
+        margin: 15% 0% 3% 0%;
+        border-top:2px solid white;
+        font-weight: 600;
+    }
+    aside >.dev-creds
+    {
+        padding-top: 100px;
+        line-height: 12px;
+    }
+    main > .row > section
+    {
+        height: 900;
+    }
+    .dev-portfolio > .portfolio
+    {
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: start;
+    }
+    .dev-portfolio > .portfolio > .icon-wrap
+    {
+        background-color: color;
+        padding: 2px;
+    }
+    .dev-portfolio > .portfolio > a
+    {
+        margin-left: 10px;
+        color: white;
+    }
+    .dev-icon 
+    {
+        margin-top: 10%;
+        text-align: center;
+    }
+    .dev-icon img
+    {
+        width: 150px;
+        height: 150px;
+        border-radius: 125px;
+        margin-bottom: 20px;
+    }
+    .dev-contacts   
+    {
+        margin-top: 5%;
+    }
+    .dev-contacts > .contact  
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row nowrap;
+        justify-content: start;
+    }
+    .dev-contacts > .contact >.detail
+    {
+        margin-left: 10px;
+    }
+    .dev-edu >.dev-school-1 > .dev-sch-name,
+    .dev-edu >.dev-school-2 > .dev-sch-name,
+    .dev-edu >.dev-school-3 > .dev-sch-name
+    {
+        text-transform: uppercase;
+    }
+    .dev-edu >.dev-school-1 > .dev-sch-program,
+    .dev-edu >.dev-school-2 > .dev-sch-program,
+    .dev-edu >.dev-school-3 > .dev-sch-program
+    {
+        color: rgb(206, 206, 206);
+    }
+    .dev-edu >.dev-school-1 > ul > li,
+    .dev-edu >.dev-school-2 > ul > li,
+    .dev-edu >.dev-school-3 > ul > li
+    {
+        color: rgb(206, 206, 206);;
+    }
+    .dev-edu >.dev-school-1,
+    .dev-edu >.dev-school-2,
+    .dev-edu >.dev-school-3
+    {
+        margin-top: 10%;
+    }
+    .port-nav > ul
+    {
+        width: 100%;
+        list-style: none;
+        padding:0;
+        margin: 0;
+        text-align: center;
+    }
+    .port-nav > ul > li 
+    {
+        display: inline-block;
+        margin-right: 2px;
+    }
+    .port-nav > ul > li > a
+    {
+        color: white;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .dev-prof-sum 
+    {
+        padding: 5% 5% 3% 5%;
+    }
+    .dev-prof-sum > span 
+    {
+        border-top-right-radius: 10px;
+        font-size: x-small;
+    }
+    .dev-prof-sum > .sum-exp,
+    .dev-prof-sum > .sum-ext
+    {
+        line-height: 16px;
+        font-size: medium;
+        color:blanchedalmond;
+    }
+    .dev-skills 
+    {
+        padding: 5%;
+    }
+    .dev-skills > span 
+    {
+        border-top-right-radius: 10px;
+        font-size: x-small;
+    }
+    .front-end,.back-end 
+    {
+        margin-top: 10%;
+    }
+    .front-end > h4,
+    .back-end > h4
+    {
+        font-size: medium;
+        margin-bottom: 2%;
+    }
+    .front-end > .skill > .sk-name,
+    .back-end > .skill > .sk-name
+    {
+        font-size: small;
+    } 
+    .dev-skills > .row > .front-end > .skill > .sk-exp,
+    .dev-skills > .row > .back-end > .skill > .sk-exp
+    {
+        width: 100%;
+    }
+    .live-pros 
+    {
+        padding: 3%;
+    }
+    .live-pros > .row-1 >.project,
+    .live-pros > .live-pros-row-2 >.project
+    {
+        margin-bottom: 2%;
+    }
+    .live-pros > span,
+    .work-exp > span,
+    .hobbies > span
+    {
+        font-size: x-small;
+    }
+    .hobbies 
+    {
+        padding: 5%;
+    }
+    .project > .pro-wrap 
+    {
+        border-radius: 5px;
+        background-color: antiquewhite;
+        text-align: center;
+        padding: 10%;
+    }
+    .project > .pro-wrap > h4
+    {
+        margin-bottom:0;
+        font-size: medium;
+    }
+    .project > .pro-wrap > h6 
+    {
+        font-style: italic;
+        font-size: small;
+    }
+    .work-exp
+    {
+        padding: 8%;
+    }
+    .work-exp > .work 
+    {
+        margin-bottom: 3%;
+    }
+    .work > .w-intro > .w-date,
+    .work > .w-intro > strong > h6 
+    {
+        color:grey;
+    }
+    .work-exp > .work > .w-res 
+    {
+        list-style: inside;
+    }
+    .work-exp > .work > .w-res > ul > li
+    {
+        margin-left: 1%;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+    .work-exp > .w-further 
+    {
+        font-style: italic;
+
+    }
+    main > footer 
+    {
+        background-color: rgb(16, 37, 63);
+        color: white;
+    }
+    main > footer 
+    {
+        padding: 5% 0% 5% 0%;
+    }
+    main > footer > .container 
+    > .row > .foot-group
+    {
+        margin-bottom: 20%;
+    }
+    main > footer > .container 
+    > .row > .foot-group > h5
+    {
+        text-transform: uppercase;
+        text-align: center;
+    }
+    main > footer > .container 
+    > .row > .foot-group > ol
+    {
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+    main > footer > .container 
+    > .row > .foot-group > ol >li
+    {
+        margin-top: 2%;
+        color:rgb(236, 236, 236);
+        font-size: smaller;
+        text-align: center;
+    }
+    main > footer > .container 
+    > .row > .foot-group > ol >li > a
+    {
+
+        color:rgb(236, 236, 236);
+    }
+    main > footer > .container 
+    > .row > .foot-group > ol >li 
+    > strong >a
+    {
+
+        color:rgb(236, 236, 236);
+    }
+    main > footer > .container > .copy-right > h6
+    {
+        margin-top: 10%;
+        font-size: small;
+    }
+}
